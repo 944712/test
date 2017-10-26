@@ -12,7 +12,7 @@ import android.widget.ImageButton;
 
 //서울로 주요업무별 전화번호
 public class Call2Guide extends Fragment {
-
+    ImageButton num1, num2, num3, num4, num5, num6,num7,num8;
 
     public Call2Guide() {
         // Required empty public constructor
@@ -26,71 +26,80 @@ public class Call2Guide extends Fragment {
 
 
         //서울로 안내소
-        ImageButton num1 = (ImageButton)view.findViewById(R.id.info);
+        num1 = (ImageButton)view.findViewById(R.id.info);
         //서울로 가게
-        ImageButton num2 = (ImageButton)view.findViewById(R.id.store);
+        num2 = (ImageButton)view.findViewById(R.id.store);
         //서울로 여행자카페
-        ImageButton num3 = (ImageButton)view.findViewById(R.id.tourist);
+        num3 = (ImageButton)view.findViewById(R.id.tourist);
         //목련다방
-        ImageButton num4 = (ImageButton)view.findViewById(R.id.magCafe);
+        num4 = (ImageButton)view.findViewById(R.id.magCafe);
         //수국식빵
-        ImageButton num5 = (ImageButton)view.findViewById(R.id.bread);
+        num5 = (ImageButton)view.findViewById(R.id.bread);
         //장미빙수
-        ImageButton num6 = (ImageButton)view.findViewById(R.id.roseIce);
+        num6 = (ImageButton)view.findViewById(R.id.roseIce);
         //7017 서울화반
-        ImageButton num7 = (ImageButton)view.findViewById(R.id.flowerpot);
+        num7 = (ImageButton)view.findViewById(R.id.flowerpot);
         //도토리풀빵
-        ImageButton num8 = (ImageButton)view.findViewById(R.id.acorn);
+        num8 = (ImageButton)view.findViewById(R.id.acorn);
 
-        num1.setOnClickListener((View.OnClickListener) getActivity());
-        num2.setOnClickListener((View.OnClickListener) getActivity());
-        num3.setOnClickListener((View.OnClickListener) getActivity());
-        num4.setOnClickListener((View.OnClickListener) getActivity());
-        num5.setOnClickListener((View.OnClickListener) getActivity());
-        num6.setOnClickListener((View.OnClickListener) getActivity());
-        num7.setOnClickListener((View.OnClickListener) getActivity());
-        num8.setOnClickListener((View.OnClickListener) getActivity());
-
+        num1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String tel = "tel:02-312-9575"; //서울로 안내소
+                startActivity(new Intent("android.intent.action.DIAL", Uri.parse(tel)));
+            }
+        });
+        num2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String tel2 = "tel:02-312-9836"; //서울로 가게
+                startActivity(new Intent("android.intent.action.DIAL", Uri.parse(tel2)));
+            }
+        });
+        num3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String tel3 = "tel:02-312-8340"; //서울로 여행자카페
+                startActivity(new Intent("android.intent.action.DIAL", Uri.parse(tel3)));
+            }
+        });
+        num4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String tel4 = "tel:02-312-5170"; //목련다방
+                startActivity(new Intent("android.intent.action.DIAL", Uri.parse(tel4)));
+            }
+        });
+        num5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String tel5 = "tel:02-312-4714"; //수국식빵
+                startActivity(new Intent("android.intent.action.DIAL", Uri.parse(tel5)));
+            }
+        });
+        num6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String tel6 = "tel:02-312-4971"; //장미빙수
+                startActivity(new Intent("android.intent.action.DIAL", Uri.parse(tel6)));
+            }
+        });
+        num7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String tel7 = "tel:02-312-1697"; //7017 서울화반
+                startActivity(new Intent("android.intent.action.DIAL", Uri.parse(tel7)));
+            }
+        });
+        num8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String tel8 = "tel:02-312-1892"; //도토리풀빵
+                startActivity(new Intent("android.intent.action.DIAL", Uri.parse(tel8)));
+            }
+        });
 
         return view;
 
-    }
-
-    public void onClick(View view) {
-        String tel = "tel:02-312-9575"; //서울로 안내소
-        String tel2 = "tel:02-312-9836"; //서울로 가게
-        String tel3 = "tel:02-312-8340"; //서울로 여행자카페
-        String tel4 = "tel:02-312-5170"; //목련다방
-        String tel5 = "tel:02-312-4714"; //수국식빵
-        String tel6 = "tel:02-312-4971"; //장미빙수
-        String tel7 = "tel:02-312-1697"; //7017 서울화반
-        String tel8 = "tel:02-312-1892"; //도토리풀빵
-
-        switch (view.getId()) {
-            case R.id.info:
-                startActivity(new Intent("android.intent.action.DIAL", Uri.parse(tel)));
-                break;
-            case R.id.store:
-                startActivity(new Intent("android.intent.action.DIAL", Uri.parse(tel2)));
-                break;
-            case R.id.tourist:
-                startActivity(new Intent("android.intent.action.DIAL", Uri.parse(tel3)));
-                break;
-            case R.id.magCafe:
-                startActivity(new Intent("android.intent.action.DIAL", Uri.parse(tel4)));
-                break;
-            case R.id.bread:
-                startActivity(new Intent("android.intent.action.DIAL", Uri.parse(tel5)));
-                break;
-            case R.id.roseIce:
-                startActivity(new Intent("android.intent.action.DIAL", Uri.parse(tel6)));
-                break;
-            case R.id.flowerpot:
-                startActivity(new Intent("android.intent.action.DIAL", Uri.parse(tel7)));
-                break;
-            case R.id.acorn:
-                startActivity(new Intent("android.intent.action.DIAL", Uri.parse(tel8)));
-                break;
-        }
     }
 }

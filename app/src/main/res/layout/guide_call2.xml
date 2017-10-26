@@ -4,34 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="20dp">
-        <Button
-            android:id="@+id/call1"
-            android:layout_width="200dp"
-            android:layout_height="match_parent"
-            android:text="주요업무별 전화번호"
-            android:textSize="20dp"
-            android:background="#00ffffff"
-            android:layout_gravity="center_horizontal"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="관광 편의시설 전화번호"
-            android:textSize="20dp"
-            android:background="#ad98b43b"
-            />
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="#ad98b43b"
+        android:layout_marginTop="68dp"
         >
 
         <FrameLayout
@@ -56,7 +34,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             >
             <TextView
@@ -75,13 +53,13 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             >
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="서울로 여행자카페 운영시간\n10:00~22:00\n02-312-8340, 8676 "/>
+                android:text="서울로 여행자카페\n운영시간 10:00~22:00\n02-312-8340, 8676 "/>
             <ImageButton
                 android:id="@+id/tourist"
                 android:layout_width="wrap_content"
@@ -94,14 +72,13 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             >
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="   목련다방   운영시간10:00~22:00
-                02-312-5170 "/>
+                android:text="목련다방\n운영시간10:00~22:00\n02-312-5170 "/>
             <ImageButton
                 android:id="@+id/magCafe"
                 android:layout_width="wrap_content"
@@ -113,14 +90,13 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             >
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="  수국식빵   운영시간 주)11:00~22:00 (주말/공휴일10:00~22:00)
-                02-312-4714 "/>
+                android:text="수국식빵\n운영시간 주)11:00~22:00 (주말/공휴일10:00~22:00)\n02-312-4714 "/>
             <ImageButton
                 android:id="@+id/bread"
                 android:layout_width="wrap_content"
@@ -133,9 +109,13 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             >
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="장미빙수\n운영시간 10:00~22:00\n02-312-4971 " />
 
             <ImageButton
                 android:id="@+id/roseIce"
@@ -149,14 +129,13 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             >
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="  7017 서울화반   운영시간 11:30~22:00
-                02-312-1697 "/>
+                android:text="7017 서울화반\n운영시간 11:30~22:00\n02-312-1697 "/>
             <ImageButton
                 android:id="@+id/flowerpot"
                 android:layout_width="wrap_content"
@@ -164,25 +143,19 @@
                 android:background="@drawable/call"
                 android:layout_marginLeft="330dp"/>
 
-            <TextView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:text="   장미빙수   운영시간 10:00~22:00
-                02-312-4971 " />
 
         </FrameLayout>
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             >
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="   도토리풀빵   운영시간 11:00~22:00(주말/공휴일10:00~22:00)
-                 02-312-1892 "/>
+                android:text="도토리풀빵\n운영시간 11:00~22:00(주말/공휴일10:00~22:00)\n02-312-1892 "/>
             <ImageButton
                 android:id="@+id/acorn"
                 android:layout_width="wrap_content"
