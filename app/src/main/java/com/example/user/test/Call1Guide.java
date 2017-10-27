@@ -23,7 +23,6 @@ public class Call1Guide extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.guide_call, container, false);
 
-
         //서울로7017 총괄관리(안전, 관광편의)
         num1 = (ImageButton) view.findViewById(R.id.total);
         //서울로7017 시설운영(행사, 프로그램)

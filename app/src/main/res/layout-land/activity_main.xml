@@ -23,39 +23,45 @@
             android:layout_width="match_parent"
             android:layout_height="122dp"
             android:background="#9ddedee8"
+            android:fontFamily="@font/nanumbarunpen_b"
             android:text="서울로 소개"
-            android:textSize="35dp"/>
+            android:textSize="35dp" />
 
         <Button
             android:id="@+id/enjoy"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:background="#ad98b43b"
+            android:fontFamily="@font/nanumbarunpen_b"
             android:text="서울로 즐기기"
-            android:textSize="35dp"/>
+            android:textSize="35dp" />
 
         <Button
             android:id="@+id/tour"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:background="#ae478033"
+            android:fontFamily="@font/nanumbarunpen_b"
             android:text="주변관광"
-            android:textSize="35dp"/>
+            android:textSize="35dp" />
+
         <Button
             android:id="@+id/event"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:background="#be1f391d"
+            android:fontFamily="@font/nanumbarunpen_b"
             android:text="행사안내"
-            android:textSize="35dp"/>
+            android:textSize="35dp" />
 
         <Button
             android:id="@+id/guide"
             android:layout_width="match_parent"
             android:layout_height="122dp"
             android:background="#c7222220"
+            android:fontFamily="@font/nanumbarunpen_b"
             android:text="이용안내"
-            android:textSize="35dp"/>
+            android:textSize="35dp" />
 
 
 

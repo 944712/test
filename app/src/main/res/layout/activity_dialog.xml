@@ -19,12 +19,12 @@
         android:id="@+id/dialog_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
         android:layout_marginLeft="30dp"
+        android:fontFamily="@font/nanumbarunpen_b"
         android:textAlignment="center"
         android:textSize="18dp"
-        android:textStyle="bold"
-        android:layout_marginBottom="5dp"
-        />
+        android:textStyle="bold" />
 
 
     <ImageView
@@ -39,10 +39,10 @@
         android:id="@+id/dialog_context"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="12dp"
-        android:textAlignment="center"
         android:layout_below="@+id/dialog_img"
-        />
+        android:fontFamily="@font/nanumbarunpen_r"
+        android:textAlignment="center"
+        android:textSize="12dp" />
 
 
 

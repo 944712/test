@@ -1,4 +1,5 @@
 package com.example.user.test;
+
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
@@ -26,6 +27,7 @@ public class EnjoyActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_enjoy);
+
         DisplayMetrics dm = getApplicationContext().getResources().getDisplayMetrics(); //디바이스 화면크기를 구하기위해
         int width = dm.widthPixels; //디바이스 화면 너비
         int height = dm.heightPixels; //디바이스 화면 높이
