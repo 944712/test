@@ -20,6 +20,7 @@ public class MainGuide  extends AppCompatActivity{
 
             Button call = (Button)findViewById(R.id.guidecall); //서울로 연락처
             Button ask = (Button)findViewById(R.id.guideask); //서울로 문의사항
+            Button audio = (Button)findViewById(R.id.audio);//오디오가이드
 
             //서울로 연락처 화면 전환
             call.setOnClickListener(new View.OnClickListener() {
@@ -35,6 +36,15 @@ public class MainGuide  extends AppCompatActivity{
                 @Override
                 public void onClick(View view){
                     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://eungdapso.seoul.go.kr/"));
+                    startActivity(intent);
+                }
+            });
+
+            //오디오 가이드
+            audio.setOnClickListener(new View.OnClickListener(){
+                @Override
+                public void onClick(View view){
+                    Intent intent = new Intent(MainGuide.this, AudiioActivity.class);
                     startActivity(intent);
                 }
             });

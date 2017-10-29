@@ -21,7 +21,8 @@
         <activity android:name=".EnjoyActivity" />
         <activity android:name=".MainGuide" />
         <activity android:name=".CallActivity" />
-        <activity android:name=".AudiioActivity"></activity>
+        <activity android:name=".AudiioActivity" />
+        <activity android:name=".IntroActivity"></activity>
     </application>
 
 </manifest>
