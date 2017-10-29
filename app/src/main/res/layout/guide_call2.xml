@@ -18,10 +18,12 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="10dp"
             >
+
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="서울로 안내소\n운영시간 10:00~22:00\n02-312-9575"/>
+                android:fontFamily="@font/nanumbarunpen_b"
+                android:text="서울로 안내소\n운영시간 10:00~22:00\n02-312-9575" />
             <ImageButton
                 android:id="@+id/info"
                 android:layout_width="wrap_content"
@@ -37,10 +39,12 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             >
+
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="서울로 가게\n운영시간10:00~22:00\n02-312-9836 "/>
+                android:fontFamily="@font/nanumbarunpen_b"
+                android:text="서울로 가게\n운영시간10:00~22:00\n02-312-9836 " />
             <ImageButton
                 android:id="@+id/store"
                 android:layout_width="wrap_content"
@@ -56,10 +60,12 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             >
+
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="서울로 여행자카페\n운영시간 10:00~22:00\n02-312-8340, 8676 "/>
+                android:fontFamily="@font/nanumbarunpen_b"
+                android:text="서울로 여행자카페\n운영시간 10:00~22:00\n02-312-8340, 8676 " />
             <ImageButton
                 android:id="@+id/tourist"
                 android:layout_width="wrap_content"
@@ -75,10 +81,12 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             >
+
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="목련다방\n운영시간10:00~22:00\n02-312-5170 "/>
+                android:fontFamily="@font/nanumbarunpen_b"
+                android:text="목련다방\n운영시간10:00~22:00\n02-312-5170 " />
             <ImageButton
                 android:id="@+id/magCafe"
                 android:layout_width="wrap_content"
@@ -93,10 +101,12 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             >
+
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="수국식빵\n운영시간 주)11:00~22:00 (주말/공휴일10:00~22:00)\n02-312-4714 "/>
+                android:fontFamily="@font/nanumbarunpen_b"
+                android:text="수국식빵\n운영시간 주)11:00~22:00 (주말/공휴일10:00~22:00)\n02-312-4714 " />
             <ImageButton
                 android:id="@+id/bread"
                 android:layout_width="wrap_content"
@@ -112,9 +122,11 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             >
+
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumbarunpen_b"
                 android:text="장미빙수\n운영시간 10:00~22:00\n02-312-4971 " />
 
             <ImageButton
@@ -132,10 +144,12 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             >
+
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="7017 서울화반\n운영시간 11:30~22:00\n02-312-1697 "/>
+                android:fontFamily="@font/nanumbarunpen_b"
+                android:text="7017 서울화반\n운영시간 11:30~22:00\n02-312-1697 " />
             <ImageButton
                 android:id="@+id/flowerpot"
                 android:layout_width="wrap_content"
@@ -152,10 +166,12 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             >
+
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="도토리풀빵\n운영시간 11:00~22:00(주말/공휴일10:00~22:00)\n02-312-1892 "/>
+                android:fontFamily="@font/nanumbarunpen_b"
+                android:text="도토리풀빵\n운영시간 11:00~22:00(주말/공휴일10:00~22:00)\n02-312-1892 " />
             <ImageButton
                 android:id="@+id/acorn"
                 android:layout_width="wrap_content"

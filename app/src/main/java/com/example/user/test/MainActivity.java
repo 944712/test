@@ -13,7 +13,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        Button introduce= (Button)findViewById(R.id.introduce); //서울로 소개
         Button enjoy= (Button)findViewById(R.id.enjoy); //서울로 즐기기
+        Button tour= (Button)findViewById(R.id.tour); //주변관광
+        Button event= (Button)findViewById(R.id.event); //행사안내
         Button guide= (Button)findViewById(R.id.guide); //서울로 이용안내
 
 
@@ -32,4 +36,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
 }
+

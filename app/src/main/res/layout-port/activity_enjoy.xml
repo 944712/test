@@ -17,11 +17,12 @@
         android:id="@+id/yoonseul"
         android:layout_width="20dp"
         android:layout_height="20dp"
-        android:text="윤슬"
-        android:textSize="10dp"
-        android:background="#00ffffff"
+        android:layout_marginLeft="60dp"
         android:layout_marginTop="340dp"
-        android:layout_marginLeft="60dp"/>
+        android:background="#00ffffff"
+        android:fontFamily="@font/nanumbarunpen_b"
+        android:text="윤슬"
+        android:textSize="10dp" />
 
     <Button
         android:id="@+id/plaza"
@@ -29,8 +30,9 @@
         android:layout_height="40dp"
         android:layout_marginTop="260dp"
         android:background="#00ffffff"
+        android:fontFamily="@font/nanumbarunpen_b"
         android:text="만리동\n광장"
-        android:textSize="10dp"/>
+        android:textSize="10dp" />
 
     <ImageButton
         android:id="@+id/plant1"
@@ -80,12 +82,12 @@
         android:id="@+id/gallery"
         android:layout_width="23dp"
         android:layout_height="35dp"
-        android:layout_marginTop="220dp"
         android:layout_marginLeft="115dp"
+        android:layout_marginTop="220dp"
         android:background="#00ffffff"
+        android:fontFamily="@font/nanumbarunpen_b"
         android:text="서울로\n전시관"
-        android:textSize="8dp"
-        />
+        android:textSize="8dp" />
 
     <ImageButton
         android:id="@+id/bangbang"
@@ -102,21 +104,23 @@
         android:id="@+id/rest"
         android:layout_width="20dp"
         android:layout_height="40dp"
-        android:layout_marginTop="225dp"
         android:layout_marginLeft="200dp"
+        android:layout_marginTop="225dp"
         android:background="#00ffffff"
+        android:fontFamily="@font/nanumbarunpen_b"
         android:text="공중\n자연\n쉼터"
-        android:textSize="10dp"/>
+        android:textSize="10dp" />
 
     <Button
         android:id="@+id/cafe"
         android:layout_width="20dp"
         android:layout_height="50dp"
-        android:layout_marginTop="220dp"
         android:layout_marginLeft="230dp"
+        android:layout_marginTop="220dp"
         android:background="#00ffffff"
+        android:fontFamily="@font/nanumbarunpen_b"
         android:text="서울로\n여행자\n카페"
-        android:textSize="7dp"/>
+        android:textSize="7dp" />
 
     <ImageButton
         android:id="@+id/magnolia"
@@ -141,11 +145,12 @@
         android:id="@+id/store"
         android:layout_width="25dp"
         android:layout_height="40dp"
-        android:layout_marginTop="180dp"
         android:layout_marginLeft="320dp"
+        android:layout_marginTop="180dp"
         android:background="#00ffffff"
+        android:fontFamily="@font/nanumbarunpen_b"
         android:text="서울로\n가게"
-        android:textSize="8dp"/>
+        android:textSize="8dp" />
 
 
 
@@ -164,11 +169,12 @@
         android:id="@+id/information"
         android:layout_width="25dp"
         android:layout_height="20dp"
-        android:layout_marginTop="170dp"
         android:layout_marginLeft="350dp"
+        android:layout_marginTop="170dp"
         android:background="#00ffffff"
+        android:fontFamily="@font/nanumbarunpen_b"
         android:text="안내소"
-        android:textSize="9dp"/>
+        android:textSize="9dp" />
 
 
 

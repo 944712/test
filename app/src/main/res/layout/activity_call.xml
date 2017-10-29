@@ -18,19 +18,20 @@
                 android:id="@+id/call1"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:text="주요업무별 전화번호"
-                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
                 android:background="#ad98b43b"
-                android:layout_gravity="center_horizontal"/>
+                android:fontFamily="@font/nanumbarunpen_b"
+                android:text="주요업무별 전화번호"
+                android:textSize="20dp" />
 
             <Button
                 android:id="@+id/call2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="관광 편의시설 전화번호"
-                android:textSize="20dp"
                 android:background="#00ffffff"
-                />
+                android:fontFamily="@font/nanumbarunpen_b"
+                android:text="관광 편의시설 전화번호"
+                android:textSize="20dp" />
         </LinearLayout>
 
     </FrameLayout>
