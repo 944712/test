@@ -24,7 +24,7 @@
         android:background="#00000000"/>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/cheongpasangse"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
