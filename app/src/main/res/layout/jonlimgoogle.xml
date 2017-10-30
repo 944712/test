@@ -15,7 +15,7 @@
         android:src="@drawable/jonglimchongjeong" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/jonglimbuttongoogle"
         android:layout_width="300dp"
         android:layout_height="290dp"
         android:layout_alignParentTop="true"

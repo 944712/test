@@ -15,7 +15,7 @@
         android:src="@drawable/namsanhuihyeon" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/huihyeondongButtonGoogle"
         android:layout_width="300dp"
         android:layout_height="290dp"
         android:layout_alignParentTop="true"

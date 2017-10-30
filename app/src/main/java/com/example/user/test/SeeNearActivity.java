@@ -1,5 +1,6 @@
 package com.example.user.test;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,11 +14,41 @@ public class SeeNearActivity extends AppCompatActivity {
         setContentView(R.layout.see_near);
 
         Button btn1 = (Button) findViewById(R.id.jonlimdongButton);
-        btn1.setOnClickListener(new View.OnClickListener() {
+        Button btn2 = (Button) findViewById(R.id.cheongpadongButton);
+        Button btn3 = (Button) findViewById(R.id.manlidongButton);
+        Button btn4 = (Button) findViewById(R.id.huihyeondongButton);
+        Button btn5 = (Button) findViewById(R.id.namdeamunbutton);
 
+
+        btn1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                // Intent intent = new Intent(getApplicationContext(),) ;
+            public void onClick(View view) {
+                Intent i = new Intent(SeeNearActivity.this, JonlimActivity.class);
+                startActivity(i);
+            }
+        });
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(SeeNearActivity.this, CheongpaActivity.class);
+                startActivity(i);
+            }
+        });
+
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(SeeNearActivity.this, huihyeonActivity.class);
+                startActivity(i);
+            }
+        });
+
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(SeeNearActivity.this, namdeamunActivity.class);
+                startActivity(i);
             }
         });
     }

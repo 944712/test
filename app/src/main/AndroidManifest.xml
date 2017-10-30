@@ -30,7 +30,14 @@
         <activity android:name=".MainGuide" />
         <activity android:name=".CallActivity" />
         <activity android:name=".AudiioActivity" />
-        <activity android:name=".IntroActivity"></activity>
+        <activity android:name=".IntroActivity" />
+        <activity android:name=".SeeNearActivity"/>
+        <activity android:name=".JonlimActivity"/>
+        <activity android:name=".GoogleActivity"/>
+        <activity android:name=".CheongpaActivity"/>
+        <activity android:name=".huihyeonActivity"/>
+        <activity android:name=".namdeamunActivity"/>
+        <activity android:name=".EventActivitiy"/>
     </application>
 
 </manifest>
