@@ -21,7 +21,7 @@ public class MainGuide  extends AppCompatActivity{
             Button call = (Button)findViewById(R.id.guidecall); //서울로 연락처
             Button ask = (Button)findViewById(R.id.guideask); //서울로 문의사항
             Button audio = (Button)findViewById(R.id.audio);//오디오가이드
-            //Button come = (Button)findViewById(R.id.come);//서울로 오시는길
+            Button come = (Button)findViewById(R.id.come);//서울로 오시는길
 
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -51,6 +51,14 @@ public class MainGuide  extends AppCompatActivity{
                 @Override
                 public void onClick(View view){
                     Intent intent = new Intent(MainGuide.this, AudiioActivity.class);
+                    startActivity(intent);
+                }
+            });
+
+            come.setOnClickListener(new View.OnClickListener(){
+                @Override
+                public void onClick(View view){
+                    Intent intent = new Intent(MainGuide.this, DirectionsActivity.class);
                     startActivity(intent);
                 }
             });

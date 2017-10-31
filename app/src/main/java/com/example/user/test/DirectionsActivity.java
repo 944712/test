@@ -3,13 +3,15 @@ package com.example.user.test;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class IntroActivity extends AppCompatActivity {
+public class DirectionsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_intro);
+        setContentView(R.layout.activity_directions);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
     }
     public boolean onOptionsItemSelected(android.view.MenuItem item) {
         switch (item.getItemId()) {
