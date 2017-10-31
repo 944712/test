@@ -35,7 +35,11 @@
         <activity android:name=".huihyeonActivity" />
         <activity android:name=".namdeamunActivity" />
         <activity android:name=".EventActivitiy" />
-        <activity android:name=".DirectionsActivity"></activity>
+        <activity android:name=".DirectionsActivity" />
+        <activity android:name=".Jonlim_detail" />
+        <activity android:name=".huihyeon_detail" />
+        <activity android:name=".Cheongpa_detail" />
+        <activity android:name=".manridong"></activity>
     </application>
 
 </manifest>

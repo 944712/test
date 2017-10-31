@@ -20,6 +20,7 @@ public class JonlimActivity extends AppCompatActivity {
 
 
         Button btn1 = (Button) findViewById(R.id.jonglimbuttongoogle);
+        Button btn2 = (Button) findViewById(R.id.jonglimsangse);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +29,15 @@ public class JonlimActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(JonlimActivity.this, Jonlim_detail.class);
+                startActivity(i);
+            }
+        });
+
 
     }
 

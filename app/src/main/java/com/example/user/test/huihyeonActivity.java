@@ -20,11 +20,19 @@ public class huihyeonActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Button btn1 = (Button) findViewById(R.id.huihyeondongButtonGoogle);
+        Button btn2 = (Button) findViewById(R.id.huihyeonsangse);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(huihyeonActivity.this, GoogleActivity.class);
+                startActivity(i);
+            }
+        });
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(huihyeonActivity.this, huihyeon_detail.class);
                 startActivity(i);
             }
         });
