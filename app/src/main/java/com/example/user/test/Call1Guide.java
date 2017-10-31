@@ -21,6 +21,8 @@ public class Call1Guide extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+
+
         View view = inflater.inflate(R.layout.guide_call, container, false);
 
         //서울로7017 총괄관리(안전, 관광편의)

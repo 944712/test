@@ -17,6 +17,8 @@ public class huihyeonActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.huihyeon);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         Button btn1 = (Button) findViewById(R.id.huihyeondongButtonGoogle);
 
         btn1.setOnClickListener(new View.OnClickListener() {
@@ -27,4 +29,24 @@ public class huihyeonActivity extends AppCompatActivity {
             }
         });
     }
+
+    public boolean onOptionsItemSelected(android.view.MenuItem item) {
+        switch (item.getItemId()) {
+
+            case android.R.id.home:
+
+                // NavUtils.navigateUpFromSameTask(this);
+
+                finish();
+
+                return true;
+
+        }
+
+        return super.onOptionsItemSelected(item);
+
+
+
+
+    };
 }

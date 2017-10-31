@@ -38,6 +38,9 @@ public class GoogleActivity extends AppCompatActivity
 
         setContentView(R.layout.googlemap);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
 
         FragmentManager fragmentManager = getFragmentManager();
 
@@ -74,5 +77,25 @@ public class GoogleActivity extends AppCompatActivity
         map.animateCamera(CameraUpdateFactory.zoomTo(10));
 
     }
+
+    public boolean onOptionsItemSelected(android.view.MenuItem item) {
+        switch (item.getItemId()) {
+
+            case android.R.id.home:
+
+                // NavUtils.navigateUpFromSameTask(this);
+
+                finish();
+
+                return true;
+
+        }
+
+        return super.onOptionsItemSelected(item);
+
+
+
+
+    };
 
 }

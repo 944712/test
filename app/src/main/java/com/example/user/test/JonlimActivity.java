@@ -16,6 +16,8 @@ public class JonlimActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.jonlimgoogle);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         Button btn1 = (Button) findViewById(R.id.jonglimbuttongoogle);
 
@@ -26,5 +28,26 @@ public class JonlimActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
     }
+
+    public boolean onOptionsItemSelected(android.view.MenuItem item) {
+        switch (item.getItemId()) {
+
+            case android.R.id.home:
+
+                // NavUtils.navigateUpFromSameTask(this);
+
+                finish();
+
+                return true;
+
+        }
+
+        return super.onOptionsItemSelected(item);
+
+
+
+
+    };
 }

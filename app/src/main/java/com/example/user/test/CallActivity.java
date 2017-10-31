@@ -20,6 +20,8 @@ public class CallActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_call);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         call1 = (Button)findViewById(R.id.call1);
         call2 = (Button)findViewById(R.id.call2);
 
@@ -58,5 +60,25 @@ public class CallActivity extends AppCompatActivity {
                 break;
         }
     }
+
+    public boolean onOptionsItemSelected(android.view.MenuItem item) {
+        switch (item.getItemId()) {
+
+            case android.R.id.home:
+
+                // NavUtils.navigateUpFromSameTask(this);
+
+                finish();
+
+                return true;
+
+        }
+
+        return super.onOptionsItemSelected(item);
+
+
+
+
+    };
 
 }

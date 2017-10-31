@@ -16,6 +16,8 @@ public class CheongpaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cheongpagoogle);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         Button btn1 = (Button) findViewById(R.id.cheongpaButtonGoogle);
 
@@ -27,4 +29,24 @@ public class CheongpaActivity extends AppCompatActivity {
             }
         });
     }
+
+    public boolean onOptionsItemSelected(android.view.MenuItem item) {
+        switch (item.getItemId()) {
+
+            case android.R.id.home:
+
+                // NavUtils.navigateUpFromSameTask(this);
+
+                finish();
+
+                return true;
+
+        }
+
+        return super.onOptionsItemSelected(item);
+
+
+
+
+    };
 }

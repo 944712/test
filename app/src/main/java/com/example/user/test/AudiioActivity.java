@@ -12,6 +12,9 @@ public class AudiioActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_audiio);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
     }
     public void qr_info(View view) {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://me2.do/Gqi6KWiq"));
@@ -24,4 +27,24 @@ public class AudiioActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+    public boolean onOptionsItemSelected(android.view.MenuItem item) {
+        switch (item.getItemId()) {
+
+            case android.R.id.home:
+
+                // NavUtils.navigateUpFromSameTask(this);
+
+                finish();
+
+                return true;
+
+        }
+
+        return super.onOptionsItemSelected(item);
+
+
+
+
+    };
 }

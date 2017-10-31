@@ -23,6 +23,9 @@ public class MainGuide  extends AppCompatActivity{
             Button audio = (Button)findViewById(R.id.audio);//오디오가이드
             //Button come = (Button)findViewById(R.id.come);//서울로 오시는길
 
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
             //서울로 오시는길
 
             //서울로 연락처 화면 전환
@@ -56,4 +59,25 @@ public class MainGuide  extends AppCompatActivity{
 
 
         }
+
+
+    public boolean onOptionsItemSelected(android.view.MenuItem item) {
+        switch (item.getItemId()) {
+
+            case android.R.id.home:
+
+                // NavUtils.navigateUpFromSameTask(this);
+
+                finish();
+
+                return true;
+
+        }
+
+        return super.onOptionsItemSelected(item);
+
+
+
+
+    };
 }

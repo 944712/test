@@ -19,6 +19,8 @@ public class EventActivitiy extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.eventlist);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         ListView listview ;
         ListViewAdapter adapter;
 
@@ -36,4 +38,24 @@ public class EventActivitiy extends AppCompatActivity {
 
 
     }
+
+    public boolean onOptionsItemSelected(android.view.MenuItem item) {
+        switch (item.getItemId()) {
+
+            case android.R.id.home:
+
+                // NavUtils.navigateUpFromSameTask(this);
+
+                finish();
+
+                return true;
+
+        }
+
+        return super.onOptionsItemSelected(item);
+
+
+
+
+    };
 }

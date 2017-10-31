@@ -13,6 +13,10 @@ public class SeeNearActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.see_near);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
+
         Button btn1 = (Button) findViewById(R.id.jonlimdongButton);
         Button btn2 = (Button) findViewById(R.id.cheongpadongButton);
         Button btn3 = (Button) findViewById(R.id.manlidongButton);
@@ -52,4 +56,25 @@ public class SeeNearActivity extends AppCompatActivity {
             }
         });
     }
+
+    public boolean onOptionsItemSelected(android.view.MenuItem item) {
+        switch (item.getItemId()) {
+
+            case android.R.id.home:
+
+                // NavUtils.navigateUpFromSameTask(this);
+
+                finish();
+
+                return true;
+
+        }
+
+        return super.onOptionsItemSelected(item);
+
+
+
+
+    };
+
 }
